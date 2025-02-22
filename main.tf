@@ -12,6 +12,6 @@ resource "hcp_vault_secrets_app" "my-voice-is-my-passport" {
 }
 resource "hcp_vault_secrets_secret" "secret-example" {
   app_name     = hcp_vault_secrets_app.my-voice-is-my-passport.app_name
-  secret_name  = "no more"
+  secret_name  = "no_more"
   secret_value = "secrets"
 }
