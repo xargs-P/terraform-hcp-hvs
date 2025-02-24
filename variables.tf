@@ -4,15 +4,12 @@
 variable "hcp_project_id" {
   description = "ID of HCP Project to deploy module into."
 }
-/*variable "db_name" {
-  description = "Unique name to assign to RDS instance"
+
+variable "service_principal_client_id" {
+  description = "Service Principal Client ID"
 }
 
-variable "db_username" {
-  description = "RDS root username"
-}
-
-variable "db_password" {
-  description = "RDS root user password"
+variable "service_principal_client_secret" {
+  description = "Service Principal Client Secret"
   sensitive   = true
-}*/
+}
